@@ -1,6 +1,5 @@
 # SmartCare Pharmacy Web Portal
 
-SE2030 group project (Group 2026-Y2-S1-MLB-B11G2-08) - a Java web application for a retail pharmacy.
 
 **Stack:** Java 17 · Spring Boot 3.3 (MVC, Data JPA, Security, Validation) · Thymeleaf · MySQL 8 · Bootstrap 5 (responsive) · Maven
 
@@ -16,16 +15,6 @@ SE2030 group project (Group 2026-Y2-S1-MLB-B11G2-08) - a Java web application fo
    ```
    mvn spring-boot:run
    ```
-4. Open <http://localhost:8080>. Demo data (users + medicines) is created on first start.
-
-| Role | Username | Password |
-|------|----------|----------|
-| Admin | `admin` | `Password@123` |
-| Pharmacist | `pharmacist` | `Password@123` |
-| Customer | `customer` | `Password@123` |
-| Supplier | `supplier` | `Password@123` |
-| Store Manager | `manager` | `Password@123` |
-| Delivery Staff | `delivery` | `Password@123` |
 
 Change these passwords before any real use. Uploaded prescriptions are stored in `./uploads`.
 
